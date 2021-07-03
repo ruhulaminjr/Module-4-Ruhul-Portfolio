@@ -1,43 +1,59 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
-h1{
-    font-size: 5rem;
+h1 {
+  font-size: calc(2rem + 1vw);
 }
-h3{
-    font-size: 2.5rem;
+h3 {
+  font-size: calc(1.2rem + 1vw);
 }
-p{
-    font-size: 2rem;
-    color: rgb(134, 126, 126);
+p {
+  font-size: calc(1.2rem + 0.5vw);
+  color: rgb(134, 126, 126);
 }
-header{
-    display: flex;
-    flex-wrap: wrap;
+header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15rem;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
-.half{
-   flex: 1 1 50rem;
-    padding-left: 10%;
+.half {
+  flex: 1 1 50rem;
+  padding-left: 10%;
 }
-.orange-text{
-    color: orange;
+.orange-text {
+  color: orange;
 }
-.btn{
-    text-decoration: none;
-    font-size: 2rem;
-    background-image: linear-gradient(to right,orange,#F06354);
-    color: #fff;
-    border-radius: .5rem;
-    padding:1rem 4rem;
-    font-weight: 700;
+.btn {
+  text-decoration: none;
+  font-size: calc(1rem + 0.6vw);
+  background-image: linear-gradient(to right, orange, #f06354);
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: calc(0.5rem + 0.4vw) 4rem;
+  font-weight: 700;
 }
-.btn:hover{
-    background-image: linear-gradient(to left,orange,#F06354);
-
+.btn:hover {
+  background-image: linear-gradient(to left, orange, #f06354);
+}
+/* dream section  */
+.dream {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.dream p{
+    max-width: 80%;
 }
