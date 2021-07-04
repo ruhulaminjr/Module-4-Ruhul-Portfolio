@@ -82,3 +82,16 @@ header {
   padding-right: 2rem;
   padding-bottom: 5rem;
 }
+.exp1{
+  border-left: 7px solid;
+  border-image: linear-gradient(#f06354,orange);
+  border-image-slice: 1;
+}
+.exp2{
+  border-left: 7px solid;
+  border-image: linear-gradient(#7D30D8,#57D1D7);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+}
